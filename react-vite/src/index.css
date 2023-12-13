@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Global Styles */
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.img_div {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.img_div>img {
+    width: 23%;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+#root {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 100vh;
+}
